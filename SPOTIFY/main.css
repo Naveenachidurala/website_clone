@@ -1,0 +1,466 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;
+
+}
+#main{
+    /* border: 2px solid; */
+    height: 75px;
+    background-color: black;
+
+}
+#sub-main{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 75%;
+    margin: auto;
+
+}
+
+#sub-main span svg{
+    height: 2.8em;
+    margin-top: 10px;
+    fill: white;
+
+}
+
+#sub-main div{
+    /* border: 2px solid brown; */
+    width: 40%;
+    position: absolute;
+    right: 120px;
+    top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+}
+
+#sub-main div span+span{
+    padding-left: 25px;
+
+}
+#sub-main div span:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#sub-main span svg:hover{
+    cursor: pointer;
+}
+
+#main1{
+    /* border: 3px solid; */
+    height: 600px;
+    background: url("./images/bubbles-dktp.svg"),
+    linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+}
+#main1 span svg{
+    height: 35em;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+/* z-index:to overlap one image to another. */
+
+#main1 img{
+    height: 455px;
+    position: absolute;
+    top: 220px;
+    left: 301px;
+
+}
+#info{
+    /* border: 2px solid aqua; */
+    position: absolute;
+    left: 650px;
+    top: 250px;
+}
+#info h1{
+    font-size: 64px;
+    color: white;
+    width: 800px;
+}
+#info h1+button{
+    padding: 20px;
+    border-radius:50px;
+    background-color:white;
+    color: black;
+    text-transform: uppercase;
+    /* border: 2px solid wheat; */
+    border: none;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 200px;
+}
+button:hover{
+    cursor: pointer;
+}
+#background{
+    /* border: 3px solid; */
+    height: 500px;
+}
+#question{
+    /* border: 2px solid black; */
+    width: 75%;
+    height: inherit;
+    margin: auto;
+}
+#spotify{
+    /* border: 2px solid yellowgreen; */
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    margin-top: 15px;
+}
+#num1{
+    /* border: 2px solid brown; */
+    list-style-type: none;
+    display: flex;
+    padding: 0%;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+#num1 li div p{
+    /* border: 2px solid violet; */
+    text-align: center;
+    font-size: 18px;
+    font-weight:bolder;
+    margin-top: 15px;
+}
+#img1 img{
+    /* border: 5px solid; */
+    margin-left: 45px;
+}
+#img2 img{
+    /* border: 5px solid; */
+    margin-left: 65px;
+}
+#img3 img{
+    /* border: 5px solid; */
+    margin-left: 65px;
+}
+#img4 img{
+    /* border: 5px solid;  */
+    margin-left: 45px;
+}
+#img1 img+p+p{
+    font-size: 14px;
+    font-weight:500;
+    word-spacing:2px;
+    letter-spacing:1px;
+    width: 250px;
+    padding-right: 5px;
+
+} 
+#img2 img+p+p{
+    font-size: 14px;
+    font-weight:500;
+    word-spacing:2px;
+    letter-spacing: 1px;
+    width: 250px;
+    padding-left: 5px;
+
+} 
+#img3 img+p+p{
+    font-size: 14px;
+    font-weight:500;
+    word-spacing:2px;
+    letter-spacing: 1px;
+    width: 300px;
+
+} 
+#img4 img+p+p{
+    font-size: 14px;
+    font-weight:500;
+    word-spacing:2px;
+    letter-spacing: 1px;
+    width: 250px;
+} 
+#background aside{
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid; */
+    background-image:linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));;
+}
+aside h2{
+    /* border: 2px solid antiquewhite; */
+    color: white;
+    text-align: center;
+    /* margin-top: 200px; */
+    /* padding: 10px; */
+    font-size: 40px;
+    font-weight:800;
+}
+#background aside h2+h2{
+    color: white;
+    /* border: 2px solid yellowgreen; */
+    /* padding: 10px; */
+    font-size: 40px;
+    font-weight:800;
+}
+aside div{
+    /* border: 2px solid; */
+    position: absolute;
+    left: 500px;
+    top: 1380px;
+}
+#query{
+    /* border: 2px solid; */
+    height: 400px;
+    width: 100%;
+}
+#query #list{
+    /* border: 2px solid brown; */
+    height:inherit;
+    width: 70%;
+    margin: auto;
+}
+#query #list h2{
+    /* border: 2px solid green; */
+    text-align: center;
+    margin-top: 15px;
+    font-weight:800;
+    font-size: 30px;
+    padding: 5px;
+}
+ #div .faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.ques{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    padding: 15px;
+    margin-top: 15px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.633);
+}
+.ques h3{
+    font-size: 1.8rem;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+}
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    transition: max-height 1.4s ease;
+}
+.faq .active .answer{
+    max-height: 300px;
+}
+#bold{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 100%;
+    background: url("./images/lets-play.svg") ,linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    background-repeat: no-repeat;
+    background-position-x: -10px;
+    background-position-y: -160px;
+}
+#bolder{
+    /* border: 2px solid brown; */
+    height: 200px;
+    width: 750px;
+    position: absolute;
+    left: 400px;
+    top: 2295px;
+}
+#bolder h1{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+}
+#bolder button{
+    text-transform:uppercase;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top:40px;
+    margin-left: 320px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border: none;
+}
+#bolder button:hover{
+    cursor: pointer;
+}
+footer{
+    border: 2px solid;
+    height: 530px;
+    width: 100%;
+    background-color: black;
+}
+footer span{
+    color: white;                                                                                            
+}
+span svg{
+    height: 2.8em;
+    margin-top: 10px;
+    fill: white;
+    position: absolute;
+    left: 200px;
+    top: 2700px;
+}
+footer ul{
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 2720px;
+    list-style-type: none;
+    line-height: 50px;
+}
+footer ul li{
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: grey;
+}
+footer ul li+li{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+footer ul li+li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+#foot1{
+    color: white;
+    position: absolute;
+    left: 600px;
+    top: 2720px;
+    list-style-type: none;
+    line-height: 50px;
+}
+#foot1 li{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+#foot1 li+li{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+#foot1 li+li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+#foot2{
+    color: white;
+    position: absolute;
+    left: 800px;
+    top: 2720px;
+    list-style-type: none;
+    line-height: 50px;
+}
+
+#foot2 li{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+#foot2 li+li{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+#foot2 li+li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#icon{
+    border: 2px solid white;
+    padding: 18px;
+    position: absolute;
+    width: 250px;
+    left: 1200px;
+    top: 2750px;
+    display: flex;
+    justify-content: space-around;
+}
+#icon li{
+    border: 2px solid yellow;
+    border-radius: 50%;
+    display: inline-block;
+    height: 54px;
+    width: 54px;
+    background-color: black;
+    color: white;
+}
+#first{
+    background-image: url("./images/insta.svg");
+    background-repeat: no-repeat;
+    
+}
+#list5{
+    /* border: 2px solid white; */
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 3100px;
+    left: 190px;
+}
+#list5 li{
+    color: grey;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    font-size: 12px;
+}
+#list5 li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+#globe{
+    /* border: 2px solid white; */
+    text-transform: capitalize;
+    font-size: 12px;
+    position: absolute;
+    right: 180px;
+    top: 3050px;
+    padding: 5px;
+    color: grey;
+
+}
+#globe:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
+#globe i:hover{
+    color: white;
+    cursor:text;
+}
+footer p{
+    /* border:2px solid white; */
+    width: 130px;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 5px;
+    color: grey;
+    position: absolute;
+    right: 160px;
+    top: 3090px;
+}
