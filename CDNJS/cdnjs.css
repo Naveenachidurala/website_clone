@@ -1,0 +1,274 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+    font-family: "Ubuntu",sans-serif;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+section{
+    /* border: 2px solid; */
+    width: 100%;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 300;
+    background-color: #454647;
+    color: #ebebeb;
+    height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+section h1{
+    /* border: 2px solid white; */
+    width: 1000px;
+    /* margin: auto; */
+    position: absolute;
+    top: 160px;
+    margin-left:330px;
+    font-size:50px;
+    line-height: 50px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-weight: lighter;
+}
+section h2{
+    /* border:3px solid white; */
+    width: 1500px;
+    position: absolute;
+    top: 300px;
+    margin-left:330px;
+    line-height: 30px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-weight:100;
+    font-size: 22px;
+}
+form{
+    position: absolute;
+    top: 450px;
+    /* border: 3px solid wheat; */
+    margin-left: 330px;
+}
+form input{
+    padding: 10px;
+    width: 900px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+i{
+    position: absolute;
+    top: 460px;
+    right: 320px;
+    font-size: 25px;
+    color: #6a6b6d;
+    font-weight: lighter;
+}
+div{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 90px;
+    background-color:rgba(0, 0, 0, 0.263);
+
+}
+section div img{
+    margin-top: 8px;
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+}
+section i{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 1230px;
+}
+.fa-brands{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 1283px;
+}
+div img+ul{
+    /* border: 2px solid; */
+    padding: 0%;
+    display: flex;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    justify-content: space-around;
+    list-style-type: none;
+    width: 400px;
+    margin-left: 1070px;
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+}
+div img+ul li+li+li+li+li+li i{
+    /* border: 3px solid brown; */
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: lightgreen;
+    background-color: lightgreen;
+    border-radius: 100%;
+    font-size: 9px;
+}
+/* div{
+    border: 5px white;
+} */
+#foot{
+    /* border: 2px solid; */
+    height: 40px;
+    background-color: #d9643a;
+    position: absolute;
+    top: 700px;
+    width:100%;
+}
+#foot p{
+    border: 2px solid;
+    width: 150px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    position:absolute;
+    top: 10px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size: 17px;
+    left: 30px;
+}
+#foot p+p{
+    /* border: 2px solid; */
+    width: 1200px;
+    margin-left: 170px;
+    position: absolute;
+    top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-right: none;
+    font-weight: lighter;
+}
+footer div{
+    /* border: 2px solid red; */
+height: 300px;
+background-color: #242525;
+}
+dl>img{
+    width: 200px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+dd>span{
+    font-size: 14px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 35px;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 15px;
+}
+#demo5{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 825px;
+    left: 160px;
+    cursor: pointer;
+
+}
+#demo6{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 827px;
+    left: 200px;
+    cursor: pointer;
+}
+#demo5:hover{
+    /* fill: currentColor; */
+    color: rgba(255, 166, 0, 0.744);
+}
+#demo6:hover{
+    color: rgba(255, 166, 0, 0.744);
+}
+#demo7{
+    /* border: 2px solid white; */
+    width: 280px;
+    position: absolute;
+    left: 350px;
+    top: 780px;
+}
+#demo7 dt{
+    text-transform: uppercase;
+    color: grey;
+    font-size: 18px;
+    font-weight:lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#demo7 dd{
+    color: white;
+    font-size: 18px;
+    font-weight:lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#demo7 dd:hover{
+    cursor: pointer;
+    color:rgba(255, 166, 0, 0.744);
+}
+#sub{
+    /* border: 2px solid white; */
+    width: 280px;
+    position: absolute;
+    left: 790px;
+    top: 780px;
+
+}
+#sub dt{
+    text-transform: uppercase;
+    color: grey;
+    font-size: 18px;
+    font-weight:lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sub dd{
+    color: white;
+    font-size: 18px;
+    font-weight:lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sub dd:hover{
+    cursor: pointer;
+    color:rgba(255, 166, 0, 0.744);
+}
+#sub-main{
+    /* border: 2px solid white; */
+    width: 280px;
+    position: absolute;
+    left: 1200px;
+    top: 780px;
+}
+#sub-main dt{
+    text-transform: uppercase;
+    color: grey;
+    font-size: 18px;
+    font-weight:lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sub-main dd{
+    color: white;
+    font-size: 18px;
+    font-weight:lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+#sub-main dd:hover{
+    cursor: pointer;
+    color:rgba(255, 166, 0, 0.744);   
+}
