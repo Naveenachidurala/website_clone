@@ -4,9 +4,8 @@ Description
 A replica of  websites built with HTML and CSS.
 
 Technologies Used
-HTML
-
-CSS
+#HTML
+#CSS
 
 Installation
 Clone the repository.
